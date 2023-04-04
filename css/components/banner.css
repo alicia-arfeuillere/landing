@@ -1,0 +1,43 @@
+.banner {
+  background-image: url('https://img.freepik.com/free-vector/animal-background-vector-with-cute-pets-illustration_53876-127698.jpg?w=1800&t=st=1680519893~exp=1680520493~hmac=703ca74391c0db75cb0c1d052208eb3b1eba640ec88c21711f95e7e29a917caa');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 72px;
+  color: #5E5E5E;
+  text-shadow: 2px 2px #E7AB9A;
+  margin-top: 0;
+}
+
+.banner h2 {
+  font-size: 48px;
+  color: #5E5E5E;
+  text-shadow: 2px 2px #E7AB9A;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.banner button {
+  background-color: #E7AB9A;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 40px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+.banner button:hover {
+  background-color: #5E5E5E;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
